@@ -1,0 +1,45 @@
+body{
+}
+.header_component_main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header_img_div{
+    margin: 1.2em 0.2em 1em 0em;
+}
+.header_img_div img{
+    width: 7em;
+    height: 7em;
+}
+.header_title_div{
+    margin: 0.7em 0.2em 1em 0.5em;
+    color: rgb(64, 67, 95);
+    font-family: 'Times New Roman', Times, serif;
+}
+.header_title_div h1{
+    font-size: 3.5em;
+    margin-bottom: 0;
+    margin-top: 0.4em;  
+}
+.header_title_div p{
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 0;
+}
+@media only screen and (min-width: 600px){
+    .header_img_div img{
+        width: 9em;
+        height: 9em;
+    }
+    .header_title_div{
+        margin-top: 0em;
+    }
+    .header_title_div h1{
+        font-size: 6em;
+        margin-top: 0.3em;
+    }
+    .header_title_div p{
+        font-size: 1.5em;
+    }
+}
