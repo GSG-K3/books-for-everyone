@@ -1,5 +1,5 @@
 import React from 'react'
-import BooksImg from '../../Images/books-cartoon1.png'
+import BooksImg from '../../../Images/books-cartoon1.png'
 import './header.css'
 
 function Header(){
