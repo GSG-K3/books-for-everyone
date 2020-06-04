@@ -1,0 +1,35 @@
+.search_result_component_div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+.search_result_loading{
+    margin-top: 4em;
+    color: rgb(64, 67, 95);
+    font-family: 'Times New Roman', Times, serif;
+}
+.result_book_div{
+    margin: 2em 1em 1em 2em;
+    padding: 2em 1em 1em 1em;
+    color: rgb(64, 67, 95);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    width: 50%;
+    background-color: rgba(222, 222, 241, 0.692);
+    border-bottom: solid rgb(64, 67, 95) 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+}
+@media only screen and (min-width: 600px){
+    .result_book_div{
+        width: 25%;
+    }
+}
