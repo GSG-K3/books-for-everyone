@@ -33,7 +33,6 @@ function SearchRusult(props){
         function handleClick(selectedBookInfo){
             setSelectedBook(selectedBookInfo)
             setShowInfo(true)
-            console.log('ggggggg',selectedBookInfo)
             return ;
         }
         return (
