@@ -1,5 +1,7 @@
 .search_component_div{
     margin-top: 0;
+    display: flex;
+    justify-content: center;
 }
 .search_button_img{
     width: 4em;

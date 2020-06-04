@@ -1,5 +1,6 @@
 import React ,{useState} from 'react'
 import SearchIcon from '../../../Images/Searching-512.png'
+import SearchResult from '../../Layout/SearchResult/SearchResult.js'
 import './search.css'
 
 function SearchForBook() {
@@ -12,7 +13,7 @@ function SearchForBook() {
         setShowResult(true)
         const input =document.getElementById('searchInput')
             input.value=null
-            console.log(showResult ,bookTitle)
+            console.log(bookTitle)
         
     }
     return (
@@ -29,6 +30,10 @@ function SearchForBook() {
                             src={SearchIcon} 
                             alt='search-icon'/>
                         </button>
+            </div>
+            <div>
+                {showResult ?
+                <SearchResult book={bookTitle} /> : null}
             </div>
 
         </div>
