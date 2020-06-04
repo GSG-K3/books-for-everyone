@@ -2,7 +2,6 @@ import React from 'react'
 
 function BookInfo(props) { 
     const {bookDetails}=props
-    console.log(bookDetails)
     return (
         <div>
             <img src={bookDetails.volumeInfo.imageLinks.smallThumbnail} 
